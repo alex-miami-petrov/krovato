@@ -139,8 +139,73 @@ button {
 /* HERO */
 
 .hero {
-  padding-top: ;
-  padding-bottom: ;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.hero-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.gallery {
+  position: relative;
+  width: 100%;
+  max-width: 410px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slides {
+  position: relative;
+  width: 410px; /* Встановлюємо ширину слайду */
+  height: 600px; /* Встановлюємо висоту слайду */
+  border-radius: 8px; /* Округлені кути слайду */
+  overflow: hidden; /* Щоб вміст не виходив за межі округлених кутів */
+}
+
+.slides img {
+  width: 100%;
+  height: 100%; /* Задаємо висоту зображення так, щоб воно заповнювало контейнер */
+  object-fit: contain;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateX(0);
+  transition: opacity 1s ease-in-out; /* Плавний перехід */
+}
+
+.slides img.active {
+  opacity: 1;
+}
+
+.dots {
+  position: absolute;
+  bottom: 2%; /* Відстань від низу картинки */
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.dot {
+  height: 14px;
+  width: 14px;
+  margin: 0 2px;
+  background: #f8f8f8;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background: radial-gradient(circle, #f5a623 40%, #f8f8f8 50%);
+}
+.dot.inactive {
+  background-color: #f8f8f8;
+  box-shadow: none;
 }
 
 /*  */
@@ -148,3 +213,14 @@ button {
 /*  */
 
 /*  */
+
+/* DESKTOP */
+
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1920px;
+    padding-left: 315px;
+    padding-right: 315px;
+    margin: 0 auto;
+  }
+}
