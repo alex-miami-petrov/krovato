@@ -1,0 +1,121 @@
+body {
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  background-color: #f8f8f8;
+  color: #2b2929;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.33333;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 0 auto;
+  }
+}
+
+/* HEADER */
+
+.header {
+  padding-top: 27px;
+  padding-bottom: 40px;
+}
+.mob-head-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.burger-icon {
+}
+.logo {
+}
+.logo-icon {
+}
+.head-call-btn {
+  border: none;
+  background-color: transparent;
+}
+.head-call-icon {
+  fill: #535353;
+}
+.mob-head-catalogue-list {
+}
+.head-cat-item {
+}
+.head-catalogue-btn {
+}
+.head-catalogue-icon {
+}
+.head-search-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.head-search-icon {
+}
+.head-fav-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.head-fav-icon {
+}
+.head-bin-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.head-bin-icon {
+}
+
+/* HERO */
+
+.hero {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+/*  */
+
+/*  */
+
+/*  */
