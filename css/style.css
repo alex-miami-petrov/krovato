@@ -57,12 +57,21 @@ button {
 
 .header {
   padding-top: 27px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+.head-container {
+  padding-left: 0;
+  padding-right: 0;
 }
 .mob-head-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  margin-bottom: 27px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 .burger-icon {
 }
@@ -77,11 +86,31 @@ button {
 .head-call-icon {
   fill: #535353;
 }
+
 .mob-head-catalogue-list {
+  display: flex;
+  align-items: center;
+  border-top: 2px solid #f8f8f8;
+  padding-top: 12px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 .head-cat-item {
 }
 .head-catalogue-btn {
+  border-radius: 8px;
+  padding: 11px 20px;
+  width: 145px;
+  height: 46px;
+  background-color: #ffbc57;
+  border: none;
+  margin-right: 75px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 19px;
+  line-height: 1.26316;
+  color: #fff;
 }
 .head-catalogue-icon {
 }
