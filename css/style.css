@@ -208,7 +208,65 @@ button {
   box-shadow: none;
 }
 
-/*  */
+/* POP-CATEGORY */
+
+.pop-category {
+  padding-bottom: 80px;
+}
+
+.pop-title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.33;
+  margin-bottom: 40px;
+}
+.pop-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.pop-item {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: #fff;
+  /* height: 240px; */
+  width: 200px;
+}
+.pop-text-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.pop-subtitle {
+  position: absolute;
+  padding-left: 15px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.26;
+  padding-top: 15px;
+}
+.pop-text {
+  position: absolute;
+  transform: translate(450%, 12%);
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.26;
+  text-align: right;
+  color: #b1b1b1;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+.pop-img {
+  position: relative;
+}
+.pop-btn {
+  position: absolute;
+  transform: translate(360%, -120%);
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+.pop-icon {
+}
 
 /*  */
 
